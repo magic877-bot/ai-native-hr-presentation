@@ -195,9 +195,9 @@ function SlideNine() {
 function SlideTen() {
   return (
     <SlideShell page="S10" eyebrow="HR MISSION" className="mission-slide">
-      <Title kicker="HR 的专业主位" copy="技术会变，组织创造价值的方式会变，但 HR 的底层使命不会变。">AI 没有改变 HR 的使命，<br />却改变了<span className="neon-inline">价值创造方式</span></Title>
-      <div className="mission-axis"><div className="mission-half external"><small>EXTERNAL</small><strong>外部适应性</strong><p>市场 · 客户 · 竞争 · 政策</p><em>适应 AI 改写价值创造方式</em></div><div className="mission-core"><span>×</span><b>组织活力</b><small>激发人机协同价值链</small></div><div className="mission-half internal"><small>INTERNAL</small><strong>内部有效性</strong><p>组织 · 人才 · 文化 · 机制</p><em>人、Agent、流程与治理协同</em></div></div>
-      <div className="bottom-claim">帮助组织在不同环境下，提升外部适应性和内部有效性。</div>
+      <Title kicker="HR 的专业主位" copy="技术会变，HR 始终要让组织既能感知外部变化，又能完成内部重构。">HR 的使命没有变：<br /><span className="neon-inline">连接外部变化，推动内部重构</span></Title>
+      <div className="mission-axis"><div className="mission-half external"><small>EXTERNAL</small><strong>外部适应性</strong><p>客户 · 市场 · 竞争 · 政策</p><em>看懂 AI 重塑的客户需求与竞争规则</em></div><div className="mission-core"><span>×</span><b>组织活力</b><small>感知变化 · 快速重构</small></div><div className="mission-half internal"><small>INTERNAL</small><strong>内部有效性</strong><p>组织 · 人才 · 文化 · 机制</p><em>重构人、Agent、流程与治理的协同方式</em></div></div>
+      <div className="bottom-claim">外部环境定义新价值，内部组织建立新能力。</div>
     </SlideShell>
   );
 }

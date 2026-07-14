@@ -15,6 +15,7 @@ When implementing from a selected generated mock, treat that image as the source
 - The one-direction gradient must be seamless: duplicate the complete blue-violet-cyan-blue color cycle twice and animate by exactly one cycle so the iteration boundary has identical pixels.
 - Use the official 人力家 logo sourced from the company-introduction PDF, not a generated or letter-based stand-in.
 - On S9, AI Harness is the business action engine; Model is only a lower-level source of general reasoning capability.
+- On S10, distinguish the two sides by question rather than physical location: external adaptability explains why the organization must change and where value is moving; internal effectiveness explains how the organization must reconfigure to deliver that value. Use the framing “连接外部变化，推动内部重构”.
 - On S15, prefer an attention-grabbing radar silhouette and label it as a non-quantitative illustrative profile.
 - On S8, distinguish the weekly report as a fragmented-data-to-analysis/output information chain from campaign building as a cross-system execution and audit task flow; never reuse one generic stage sequence for both.
 - On S8, the `1–2 天 → 2 小时` comparison must use equal-width left and right metric columns with the arrow mathematically centered; supporting labels sit beneath their own metric, never between a metric and the arrow.
