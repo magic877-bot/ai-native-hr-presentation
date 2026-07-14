@@ -265,11 +265,15 @@ function SlideSixteen() {
   );
 }
 
-const triad = [["People Strategist", "组织如何围绕 AI 重构", "价值链与角色设计"], ["People Scientist", "如何理解人与组织行为", "画像、网络与文化分析"], ["People Technologist", "如何把 HR 流程 Harness 化", "工具、权限与 Eval"]];
+const triad = [
+  ["People Strategist", "推动组织持续进化", "战略选择 · 组织设计 · 人才决策"],
+  ["People Scientist", "理解组织运行规律", "诊断预测 · 组织实验 · 干预设计"],
+  ["People Technologist", "构建可计算的组织", "数据架构 · Skill Graph · 技术底座"],
+];
 function SlideSeventeen() {
   return (
     <SlideShell page="S17" eyebrow="NEW HR TRIAD" className="triad-slide">
-      <Title kicker="HR 必须长出的新能力" copy="像 CIO 设计系统架构一样，HR 需要设计和治理人机协同价值链。">组织智能架构师，需要<br /><span className="neon-inline">新三角能力</span></Title>
+      <Title kicker="HR 必须长出的新能力" copy="三类能力不是三个新部门，而是围绕组织问题动态组合的能力池。">组织智能架构师，需要<br /><span className="neon-inline">新三角能力</span></Title>
       <div className="triad-canvas"><div className="triad-lines" /><div className="triad-core"><small>AI-NATIVE HR</small><strong>组织智能<br />架构师</strong></div>{triad.map(([a, b, c], i) => <div className={`triad-node t${i + 1}`} key={a}><span>0{i + 1}</span><h3>{a}</h3><b>{b}</b><small>{c}</small></div>)}</div>
     </SlideShell>
   );
