@@ -1,0 +1,9 @@
+直接双击打开：AI-Native-HR-完整演示-双击打开.html
+
+不要直接双击 index.html；它是本地开发服务器入口，需要 npm run dev 才能加载。
+
+演示快捷键：
+- 右方向键 / 空格 / PageDown：下一页
+- 左方向键 / PageUp：上一页
+- Home / End：首尾页
+- F：进入全屏

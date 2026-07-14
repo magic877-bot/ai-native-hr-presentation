@@ -1,0 +1,13 @@
+node_modules/
+.npm-cache/
+dist/
+.DS_Store
+*.log
+
+# Local visual-QA captures are reproducible and should not bloat the repository.
+qa/
+qa-*/
+audit-cover/
+public/qa/
+public/qa-compare.html
+
