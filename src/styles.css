@@ -194,3 +194,69 @@ button{font:inherit}
 .super-worker span,.super-org span{font-size:clamp(8px,.74vw,11px);color:#a6b1c1}
 .hr-bridge b{font-size:clamp(7px,.64vw,9px)}
 .hr-bridge small{font-size:clamp(7px,.7vw,10px);line-height:1.5;color:#a1adbd}
+
+/* 2026-07-14: deck-wide projection readability pass.
+   S13 is the reference hierarchy: meaningful stage headings ~= 1.35vw,
+   supporting explanations ~= .88vw. Navigation and decorative labels stay quiet. */
+.definition-hero>p:last-child{font-size:clamp(10px,1.02vw,15px);color:#aeb9c8}
+.maturity-track{height:27%;bottom:12%}
+.maturity-track span{font-size:clamp(8px,.72vw,11px)}
+.maturity-track b{font-size:clamp(14px,1.35vw,20px);line-height:1.25}
+.maturity-track small,.maturity-track em{font-size:clamp(9px,.88vw,13px);line-height:1.45}
+.maturity-track small{color:#aeb9c9}.maturity-track em{color:#8fa4c0}
+.definition-foot{font-size:clamp(9px,.8vw,12px);color:#788ba8}
+
+.contrast-list span{font-size:clamp(9px,.88vw,13px);color:#b4bfce}
+.metric-number em{font-size:clamp(9px,.88vw,13px);color:#b8c5d4}
+.meta-error-list small{font-size:clamp(8px,.82vw,12px);color:#aeb8c7}
+.meta-operating-model span{font-size:clamp(7px,.72vw,10px)}
+.evidence-strip span{font-size:clamp(8px,.82vw,12px);line-height:1.35;color:#9eabba}
+.gap-mark span,.gap-mark small{font-size:clamp(7px,.72vw,10px)}
+.false-list small{font-size:clamp(8px,.82vw,12px);color:#a8b3c2}
+.old-core span{font-size:clamp(8px,.82vw,12px);color:#b0bac7}
+
+.problem-side p{font-size:clamp(8px,.84vw,12px);color:#aab6c7}
+.problem-side strong{font-size:clamp(9px,.9vw,13px)}
+.problem-side li{font-size:clamp(7.5px,.78vw,11px);color:#b0bac8}
+.principle-gate b{font-size:clamp(8px,.74vw,11px)}
+.principle-gate small,.principle-gate em{font-size:clamp(7px,.66vw,10px)}
+.loop-node b{font-size:clamp(9px,.88vw,13px)}
+.loop-node small{font-size:clamp(7.5px,.76vw,11px);line-height:1.35;color:#a6b2c2}
+.harness-stack span{font-size:clamp(8px,.8vw,12px);color:#b2bdcb}
+.loop-core span{font-size:clamp(6.5px,.62vw,9px)}
+
+.flow-step b{font-size:clamp(8px,.82vw,12px)}
+.flow-step small{font-size:clamp(7.5px,.74vw,10.5px);line-height:1.4;color:#a0adbf}
+.flow-label small{font-size:clamp(7px,.68vw,10px)}
+.case-metric span,.case-summary em{font-size:clamp(7.5px,.74vw,10.5px);color:#aeb7c5}
+.human-role span{font-size:clamp(8px,.8vw,12px)}
+.human-role strong{font-size:clamp(9px,.86vw,13px)}
+
+.zone-label small{font-size:clamp(7.5px,.74vw,10.5px);color:#9eabba}
+.zone ul{font-size:clamp(8px,.82vw,12px);color:#b1bdcb;gap:8px}
+.human-band,.result-band{font-size:clamp(7px,.72vw,10px)}
+.model-orb small{font-size:clamp(6.5px,.62vw,9px)}
+.model-orb span{font-size:clamp(6px,.58vw,8.5px);color:#a9b8cb}
+.cap b{font-size:clamp(8px,.78vw,11px)}
+.cap span{font-size:clamp(7px,.7vw,10px);color:#aeb9c8}
+.tool-tags span{font-size:clamp(6.5px,.62vw,9px);color:#9cabbc}
+.architecture-claim{font-size:clamp(8px,.8vw,12px);color:#a9b7c9}
+
+.mission-half p,.mission-half em{font-size:clamp(8.5px,.86vw,12.5px)}
+.mission-core small{font-size:clamp(6.5px,.62vw,9px)}
+.arena-slide .title-block{width:82%}
+.arena-item p{font-size:clamp(8.5px,.86vw,12.5px);line-height:1.5;color:#b4bfcd}
+
+.radar-caption span{font-size:clamp(7.5px,.74vw,11px)}
+.readiness-node small{font-size:clamp(8px,.78vw,11.5px);color:#b5c1d1}
+.org-radar-core small,.radar-core small{font-size:clamp(7.5px,.74vw,11px)}
+.org-radar-core span,.radar-core span{font-size:clamp(7.5px,.74vw,11px)}
+.triad-node b{font-size:clamp(9px,.88vw,13px)}
+.triad-node small{font-size:clamp(8.5px,.8vw,12px)}
+.hire-chain small{font-size:clamp(7.5px,.7vw,10px);color:#a6b2c2}
+.layer p{font-size:clamp(8.5px,.84vw,12px);color:#b0bac8}
+.eval-node small{font-size:clamp(8px,.78vw,11px);color:#aab5c4}
+.eval-emphasis span{font-size:clamp(8.5px,.82vw,12px);color:#b0bac8}
+.map-disc p,.map-disc b{font-size:clamp(8.5px,.82vw,12px)}
+.super-worker span,.super-org span{font-size:clamp(8.5px,.8vw,12px)}
+.hr-bridge small{font-size:clamp(7.5px,.74vw,11px)}
